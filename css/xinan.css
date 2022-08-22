@@ -1,0 +1,250 @@
+/* 字体声明 */
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?fahxme');
+    src:  url('../fonts/icomoon.eot?fahxme#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?fahxme') format('truetype'),
+      url('../fonts/icomoon.woff?fahxme') format('woff'),
+      url('../fonts/icomoon.svg?fahxme#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+/* viewbox区域开始 */
+.viewbox {
+    height: 335px;
+    margin-top: 12px;
+}
+.focus {
+    position: relative;
+    width: 1200px;
+    height: 335px;
+    overflow: hidden;
+}
+.focus ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 600%;
+    height: 335px;
+}
+.focus ul li {
+    float: left;
+    position: relative;
+}
+.focus ul li img {
+    width: 1200px;
+    height: 335px;
+}
+.focus ul li h3 {
+    position: absolute;
+    width: 1200px;
+    height: 43px;
+    line-height: 43px;
+    background-color: rgba(0, 0, 0, .5);
+    bottom: 0px;
+    font-weight: 400;
+}
+.focus ul li h3 a {
+    display: block;
+    padding-left: 15px;
+    color: #c0c6bb;
+    font-size: 16px;
+}
+.viewbox .focus .arrow-l:hover {
+    color: #0fb5fd;
+}
+.viewbox .focus .arrow-r:hover {
+    color: #0fb5fd;
+}
+.viewbox .focus .arrow-r {
+    display: none;
+    position: absolute;
+    right: 10px;
+    top: 120px;
+    font-family: 'icomoon';
+    font-size: 50px;
+    z-index: 999;
+    color: #eee;
+}
+.viewbox .focus .arrow-l {
+    display: none;
+    position: absolute;
+    left: 10px;
+    top: 120px;
+    font-family: 'icomoon';
+    font-size: 50px;
+    z-index: 999;
+    color: #eee;
+
+}
+.circle {
+    position: absolute;
+    bottom: 15px;
+    left: 600px;
+}
+.circle li {
+    float: left;
+    width: 10px;
+    height: 10px;
+    margin: 0 3px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, .4);
+}
+.circle li:hover {
+    cursor: pointer;
+}
+.circle .current {
+    background-color: rgba(255, 255, 255, .8);
+}
+/* viewbox区域结束 */
+/* banner-start */
+.banner {
+    margin-top: 10px;
+    height: 120px;
+}
+.banner ul li {
+    float: left;
+    width: 380px;
+    height: 120px;
+}
+.banner ul li:nth-child(2) {
+    margin: 0 30px;
+}
+.banner ul li img {
+    width: 380px;
+    height: 120px;
+}
+/* banner-end */
+/* figure-start */
+.vsb {
+    position: relative;
+    margin-top: 10px;
+    height: 380px;
+}
+.vsb_fl {
+    position: relative;
+    float: left;
+    width: 800px;
+    height: 198px;
+}
+.vsb_fr {
+    float: right;
+    width: 400px;
+    height: 263px;
+    padding-left: 20px;
+}
+.fl_title {
+    width: 790px;
+    height: 35px;
+    line-height: 35px;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #d7d7d7;
+}
+.fl_title ul li {
+    float: left;
+    width: 100px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    font-size: 16px;
+    cursor: pointer;
+    z-index: 99;
+}
+.style_color {
+    background-color: #5398d2;
+    color: #fff;
+}
+.fl_body {
+    width: 790px;
+    height: 200px;
+}
+.card {
+    display: none;
+}
+.card ul li {
+    width: 790px;
+    height: 30px;
+    background: url(../images/xdd.png) no-repeat 0 14px;
+    text-indent: 12px;
+}
+.card ul li a {
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    font-size: 15px;
+    color: #5c5c5c;
+}
+.card ul li a span {
+    float: right;
+    color: #c3c3c3;
+}
+.card ul li a:hover {
+    color: #5398d2;
+}
+.vsb_fr .kstt {
+    width: 380px;
+    height: 38px;
+    border-bottom: 1px solid rgb(215, 215, 215);
+}
+.kstt h2 {
+    height: 38px;
+    line-height: 38px;
+    font-size: 16px;
+    color: rgb(70, 70, 70);
+    font-weight: normal;
+    float: left;
+    padding: 0px 18px;
+    border-bottom: 2px solid rgb(40, 98, 142);
+}
+.vsb_fr ul {
+    width: 380px;
+    height: 215px;
+    margin-top: 12px;
+}
+.vsb_fr ul li{
+    float: left;
+    width: 187px;
+    height: 67px;
+    margin: 0 2px 2px 0;
+}
+.vsb_fr ul li a img {
+    width: 187px;
+    height: 67px;
+}
+.fb {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 1200px;
+    height: 75px;
+}
+.fb .linkt {
+    height: 28px;
+    margin-top: px;
+    border-bottom: 1px solid #eee;
+}
+.linkt h3 {
+    text-align: center;
+    font-size: 16px;
+    color: #515151;
+    width: 96px;
+    border-bottom: 2px solid #0b6cb8;
+    padding-bottom: 3px;
+    font-weight: 400;
+}
+
+.fb .linkd {
+    height: 32px;
+    line-height: 32px;
+    margin-top: 10px;
+}
+.linkd a {
+    font-size: 15px;
+    padding-right: 20px;
+}
+.linkd a:hover {
+    color: #0b6cb8;
+}
+/* figure-end */
+
